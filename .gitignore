@@ -26,3 +26,9 @@ env/
 # Model outputs (large files)
 *.onnx
 *.torchscript
+
+# Caches and Build
+.cache/
+build/
+dist/
+*.spec
