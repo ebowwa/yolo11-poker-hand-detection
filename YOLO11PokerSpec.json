@@ -1,0 +1,32 @@
+
+<%!mlprogram false%>
+{
+  "description": "YOLO11 Poker Hand Detection Placeholder",
+  "type": "neuralNetwork",
+  "schemaVersion": "1.1",
+  "mlProgramVersion": "1.0",
+  "inputs": [
+    {
+      "name": "input",
+      "type": "image",
+      "shape": {
+        "width": 640,
+        "height": 640
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "name": "detections",
+      "type": "multiArray",
+      "shape": {
+        "0": 100,
+        "1": 6
+      }
+    }
+  ],
+  "modelVersion": "1.0",
+  "author": "Meta DAT SDK Team",
+  "license": "MIT",
+  "shortDescription": "YOLO11 Poker Detection Model"
+}
